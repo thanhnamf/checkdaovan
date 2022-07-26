@@ -83,7 +83,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     }
     if (this.index == 7) {
       this.msg = ' HH  xin chàoooo';
-      this.path="'https://assets1.lottiefiles.com/packages/lf20_bXRG9q.json'"
+      this.path="'https://assets9.lottiefiles.com/private_files/lf30_y4mdxyfj.json'"
       this.change.next(true);
     }
     if (this.index == 0) {
