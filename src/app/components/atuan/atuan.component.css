@@ -1,0 +1,632 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Poppins";
+  line-height: 20px;
+  color: #b1b4bd;
+  background-color: #323a45;
+}
+a {
+  color: #b1b4bd;
+  font-weight: 500;
+  text-decoration: none;
+}
+a.nav-link {
+  color: #b1b4bd;
+  font-weight: 500;
+}
+a:hover {
+  color: #e74c3c;
+}
+a.nav-link:hover {
+  color: #e74c3c;
+  background-color: rgb(30, 100, 146);
+}
+
+.header-background {
+  position: static;
+  display: block;
+  overflow: visible;
+  top: 0;
+  height: auto;
+  min-height: 1100px;
+
+  padding-bottom: 70px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(50, 58, 69, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(50, 58, 69, 0.55),
+      rgba(50, 58, 69, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg2.JPEG);
+  flex-direction: column;
+  background-position: 0px 0px 100% 50%;
+  background-size: auto, cover;
+  white-space: normal;
+  object-fit: fill;
+  -o-object-fit: fill;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+}
+.sticky-nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  padding: 20px;
+  z-index: 1;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  background-color: rgba(12, 32, 59, 0.5);
+}
+.navbar .navbar-brand a {
+  padding: 1rem 0;
+  display: block;
+  text-decoration: none;
+}
+.navbar-brand {
+  font-size: 2.2rem;
+  color: white;
+}
+.navbar-toggler {
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border: 1px;
+  background: #fff;
+}
+.navbar-toggler span + span {
+  margin-top: 4px;
+  width: 22px;
+}
+
+.navbar-toggler span + span + span {
+  width: 22px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1.4rem 1rem;
+  font-size: 1.2rem;
+  position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #e74c3c;
+  background-color: rgb(30, 100, 146);
+}
+.btn {
+  background-color: rgb(30, 100, 146);
+  border-radius: 0%;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  color: #b1b4bd;
+}
+.btn:hover {
+  color: #e74c3c;
+}
+
+.heading {
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+  margin-top: 120px;
+  margin-bottom: 10px;
+  min-height: 100px;
+}
+
+.column-left {
+  min-height: 750px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+  flex-direction: column;
+  background-position: 0px 0px 100% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+.column-right .section-title {
+  margin-top: 80px;
+  padding: 5rem 2rem 0rem 5rem;
+  font-size: 2.8rem;
+  color: #b1b4bd;
+  font-weight: 500;
+}
+.paragraph {
+  margin-top: 15px;
+  padding: 1rem 5rem 1rem 5rem;
+  font-size: 1.1rem;
+  color: #b1b4bd;
+  line-height: 1.4;
+  text-align: justify;
+}
+.our-service-right {
+  min-height: 750px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg1.jpg);
+  flex-direction: column;
+  background-position: 0px 0px 100% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+.service-section {
+  margin-top: 20px;
+  padding: 5rem 2rem 0rem 5rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.service-section h1 {
+  text-align: center; 
+}
+.service-title1 {
+  padding: 1rem 2rem 1rem 5rem;
+  font-size: 1.8rem;
+}
+.service-title2 {
+  padding: 1rem 5rem 1rem 1rem;
+  font-size: 1.8rem;
+}
+.service-paragraph-1 {
+  margin-top: 15px;
+  padding: 0rem 5rem 1rem 0rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+.service-paragraph-2 {
+  margin-top: 15px;
+  padding: 0rem 5rem 1rem 0rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+.fa {
+  color: rgb(30, 100, 146);
+}
+.service-1 .fa {
+  padding: 3rem 2rem 1rem 2rem;
+}
+.service-2 .fa {
+  padding: 3rem 5rem 1rem 2rem;
+}
+.portfolio {
+  min-height: 1000px;
+  overflow: hidden;
+}
+.gallery {
+  min-height: 252px;
+  background-position: 0px 0px;
+  background-size: cover;
+  opacity: 1;
+  transition: transform 0.2s; /* Animation */
+  /* border:  #e74c3c 1px solid; */
+}
+.gallery-text {
+  margin: 6.5rem 3rem 1rem 3.5rem;
+}
+.gallery:hover {
+  transform: scale(1.05);
+  border: 1px solid #b1b4bd;
+}
+.img-6 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/manh.jpg);
+}
+.img-1 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tnam.jpg);
+}
+.img-2 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tbim.jpg);
+}
+.img-3 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/hh.jpg);
+}
+.img-4 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tsex1.jpg);
+}
+.img-5 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/tbick.JPG);
+}
+.img-7 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg3.JPG);
+}
+.img-8 {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg4.jpg);
+}
+.text-left-block {
+  width: 100%;
+  left: 0;
+  height: 100%;
+  z-index: 999;
+  overflow: hidden;
+}
+.text-left-block .left-center-text {
+  display: table;
+  position: relative;
+  height: 100vh;
+  padding: 0 10%;
+  text-align: left;
+}
+.text-left-block .left-center-text .left-center-part {
+  display: table cell;
+  vertical-align: middle;
+}
+.text-left-block .left-center-text .left-center-part h2 {
+  font-weight: 500;
+}
+.team-section {
+  padding: 1.3rem 0rem 1rem 0rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.team-paragraph {
+  padding: 0rem 2rem 1rem 0rem;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  text-align: justify;
+}
+.block-team {
+  margin: 1rem 0 0;
+}
+.block-team img.team-member {
+  width: 240px;
+  object-fit: fill;
+  border-radius: 10px;
+  border: 1px solid red;
+  transition: transform 0.2s;
+}
+.block-team img.team-member:hover {
+  transform: scale(1.05);
+}
+.block-team h3 {
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+.block-team small {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #e74c3c;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.block-team .paragraph {
+  padding: 0rem 3rem 0rem 0rem;
+}
+.block-team .social-media {
+  margin: 4px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+}
+/* a>i.fa {
+
+ padding:19px;
+ border-radius: 50%;
+color: #b1b4bd;
+background-color: rgb(30, 100, 146);
+} */
+
+.contact-right {
+  min-height: 1250px;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(12, 32, 58, 0.9))
+  );
+  background-image: linear-gradient(
+      180deg,
+      rgba(12, 32, 58, 0.55),
+      rgba(12, 32, 58, 0.74)
+    ),
+    url(https://thuanmit11.github.io/LanguageNeverDie/image/bg5.PNG);
+  flex-direction: column;
+  background-position: 0px 0px 100% 50%;
+  background-size: auto, cover;
+  background-attachment: scroll, scroll;
+  object-fit: cover;
+  -o-object-fit: cover;
+}
+.contact-section {
+  padding: 6rem 0rem 1rem 0rem;
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+.contact-left .paragraph {
+  padding: 0rem 3rem 0rem 0rem;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+strong {
+  font-weight: 700;
+}
+.phone-mail-link {
+  color: #fff;
+  font-weight: bold;
+}
+.phone-mail-link:hover {
+  color: #e74c3c;
+}
+#contact-form {
+  margin-top: 40px;
+}
+#contact-form .form-control {
+  background-color: #2e353f;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: none;
+  font-weight: 300;
+  outline: medium none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  height: auto;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+  text-align: left;
+}
+#contact-form .form-control:hover,
+#contact-form .form-control:focus {
+  box-shadow: none;
+  background-color: #293039;
+}
+#contact-form textarea.form-control {
+  min-height: 8rem;
+}
+#contact-form span.sub-text {
+  color: #939da5;
+  position: absolute;
+  font-size: 0.9rem;
+  right: 5rem;
+}
+#contact-form button#valid-form {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 2rem;
+  border: none;
+  display: inline-block;
+}
+
+#contact-form button#valid-form:hover {
+  background: #00e2c0;
+}
+.copyright {
+  position: absolute;
+  left: 5rem;
+  bottom: -100px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  line-height: 5rem;
+  z-index: 999;
+}
+
+.logo {
+  width: 3rem;
+  height: auto;
+  margin-right: 1rem;
+  display: inline;
+}
+.logo:hover {
+  background-color: #b1b4bd;
+  border-radius: 50%;
+}
+
+.img-service {
+  width: 10em;
+  padding: 19px;
+  padding-left: 40px;
+}
+.video-service {
+  margin: 3% 5% 0 5%;
+  height: auto;
+  width: 35%;
+  display: inline;
+  border-radius: 22px;
+  overflow: hidden;
+  -webkit-transform: translateZ(0);
+  box-shadow: 0 19px 51px 0 rgba(0, 0, 0, 0.16),
+    0 14px 19px 0 rgba(0, 0, 0, 0.07);
+  border: #e74c3c solid 1px;
+}
+#phoneNum,
+#phoneNum1 {
+  margin: 5%;
+  width: 10px;
+}
+
+/* Style cho kdo.html */
+.column-left-img img {
+  width: 40%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+  transition: transform 0.2s;
+}
+.column-left-img img:hover {
+  transform: scale(1.05);
+  border: 5px solid #e74c3c;
+}
+.column-left-img video{
+  width: 60%;
+  height: 40%;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+
+}
+/* Style cho tsex.html */
+.column-left-img1 img {
+  width: 25%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+  transition: transform 0.2s;
+}
+.column-left-img1 img:hover {
+  transform: scale(2);
+  border: 1px solid #e74c3c;
+}
+.column-left-img1 video{
+  width: 40%;
+  height: auto;
+  border-radius: 5%;
+  border: 5px solid #b1b4bd;
+  margin: 4% 3% 0% 4%;
+
+}
+
+#animation {
+  width: 50%;
+  height: 30%;
+  
+}
+.sdd{
+  background-color: #323A45 !important;
+}
