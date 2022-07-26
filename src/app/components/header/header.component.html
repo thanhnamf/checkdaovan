@@ -44,17 +44,23 @@
                 </li>
                 <li (click)="setIndex(2)">
                   <a class="dropdown-item" routerLink="atuan">AnhTuanNhaTa</a>
-                </li >
-                <li  (click)="setIndex(3)"><a class="dropdown-item" routerLink="tsex">Thanh sex</a></li>
+                </li>
+                <li (click)="setIndex(3)">
+                  <a class="dropdown-item" routerLink="tsex">Thanh sex</a>
+                </li>
                 <li (click)="setIndex(4)">
                   <a class="dropdown-item" routerLink="gate">Thuan Gate</a>
                 </li>
-                <li (click)="setIndex(5)"><a class="dropdown-item" routerLink="tnam">Thanh Nam</a></li>
-                <li (click)="setIndex(6)"><a class="dropdown-item" routerLink="mbin">Manh Bin</a></li>
+                <li (click)="setIndex(5)">
+                  <a class="dropdown-item" routerLink="tnam">Thanh Nam</a>
+                </li>
+                <li (click)="setIndex(6)">
+                  <a class="dropdown-item" routerLink="mbin">Manh Bin</a>
+                </li>
                 <li (click)="setIndex(7)">
                   <a class="dropdown-item" routerLink="dbh">Dac vu double H</a>
                 </li>
-             
+
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
@@ -73,6 +79,9 @@
             <a class="btn" href="#contact">Contact us</a>
           </form>
         </div>
+        <div>
+          <h6>Máy tính tuổi thông minh</h6>
+        </div>
       </div>
     </nav>
   </div>
@@ -83,7 +92,7 @@
         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     "
   >
-    お前はもう死んでる！<br />{{msg}}
+    お前はもう死んでる！<br />{{ msg }}
   </h1>
   <div
     class="container d-flex align-items-center justify-content-center acc"
