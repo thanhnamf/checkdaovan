@@ -28,6 +28,9 @@ a.nav-link:hover {
   color: #e74c3c;
   background-color: rgb(30, 100, 146);
 }
+.ssss{
+  color: white !important;
+}
 
 .header-background {
   position: static;

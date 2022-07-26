@@ -376,9 +376,14 @@
                 href="https://www.facebook.com/thanhnammmmmmmm/"
               >
               </a>
-              =)))
             </p>
           </div>
+        </div>
+        <div class="ad">
+          <h2 class="text-white">Máy tính tuổi thông minh</h2>
+          <input type="number" #d />
+          <button (click)="cal(d.value)" class="btn btn-primary mx-4">Tính nè</button>
+          <p *ngIf="age!=''" class="ssss text-white">Độ tuổi của bạn là: {{age}}</p>
         </div>
       </div>
     </div>

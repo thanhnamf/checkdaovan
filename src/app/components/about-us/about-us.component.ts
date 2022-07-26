@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-us.component.css']
 })
 export class AboutUsComponent implements OnInit {
-
+  age='';
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  cal(age:string){
+    console.log(age)
+    this.age=age
+  }
 }
