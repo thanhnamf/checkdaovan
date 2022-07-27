@@ -6,6 +6,7 @@ import { DbhComponent } from './components/dbh/dbh.component';
 import { GateComponent } from './components/gate/gate.component';
 import { KdoComponent } from './components/kdo/kdo.component';
 import { MbinComponent } from './components/mbin/mbin.component';
+import { TbickComponent } from './components/tbick/tbick.component';
 import { TnamComponent } from './components/tnam/tnam.component';
 import { TsexComponent } from './components/tsex/tsex.component';
 
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'gate',component:GateComponent},
   {path:'tnam',component:TnamComponent},
   {path:'mbin',component:MbinComponent},
-  {path:'dbh',component:DbhComponent}
+  {path:'dbh',component:DbhComponent},
+  {path:'tbick',component:TbickComponent}
 ];
 
 @NgModule({

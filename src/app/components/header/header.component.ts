@@ -86,6 +86,11 @@ export class HeaderComponent implements OnInit, AfterViewInit {
       this.path="'https://assets9.lottiefiles.com/private_files/lf30_y4mdxyfj.json'"
       this.change.next(true);
     }
+    if (this.index == 8) {
+      this.msg = ' Tung Bick  xin chàoooo';
+      this.path="'https://assets8.lottiefiles.com/private_files/lf30_no5ymi8c.json'"
+      this.change.next(true);
+    }
     if (this.index == 0) {
       this.msg = 'Xin chào mọi người';
       this.path = "'https://assets4.lottiefiles.com/packages/lf20_jrejavt6.json'";

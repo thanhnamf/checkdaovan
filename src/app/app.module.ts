@@ -12,6 +12,7 @@ import { GateComponent } from './components/gate/gate.component';
 import { TnamComponent } from './components/tnam/tnam.component';
 import { MbinComponent } from './components/mbin/mbin.component';
 import { DbhComponent } from './components/dbh/dbh.component';
+import { TbickComponent } from './components/tbick/tbick.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DbhComponent } from './components/dbh/dbh.component';
     GateComponent,
     TnamComponent,
     MbinComponent,
-    DbhComponent
+    DbhComponent,
+    TbickComponent
   ],
   imports: [
     BrowserModule,
