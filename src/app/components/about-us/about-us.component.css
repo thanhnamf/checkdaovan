@@ -485,6 +485,15 @@ strong {
 .phone-mail-link:hover {
   color: #e74c3c;
 }
+.donate-1 {
+  
+  color: white;
+  font-weight: bold;
+}
+.donate-1:hover {
+ 
+  color: #e74c3c;
+}
 #contact-form {
   margin-top: 40px;
 }
